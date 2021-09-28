@@ -8,13 +8,13 @@
     <html lang="en">
     <head>
         <title>Document
-            <body>
                 guvi
         </title>
     </head>
+        <body>
     <div>
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        <div>
+        </div>
             <div>
                 Guvi Geek Network
             </div>
@@ -27,12 +27,13 @@
 <html lang="en">
     <head>
         <title>Document
-            <body>
                 guvi
+        </title>
     </head>
+    <body>
     <div>
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        <div>
+    </div>
             <div>
                 Guvi Geek Network
             </div>
@@ -44,6 +45,20 @@
 
 3. Design a contact us form with all fields as required.
 
+<html lang="en">
+<head>
+<title>contact us</title>
+</head>
+<body>
+<p style="text-align:center;font-size:50px">contact us</p>
+<p>full name:</p><input type="text" placeholder ="enter full name"/><br/>
+<p>mobile number:</p><input type="number" placeholder ="enter mobile number"/><br/>
+<p>mail id:</p><input type="text" placeholder ="enter mail id"/><br/>
+<p>address:</p><input type="text" placeholder ="enter your present address"/><br/>
+<br/>
+<input type="submit" value="Submit"/>
+</body>
+</html>
 ---
 
 4. Use certain HTML elements to display the following in a HTML page.
@@ -65,13 +80,71 @@
   - MongoDB
   - Cansandra
 
+
+<html>
+
+<head>
+
+<title>day11_q4</title>
+
+</head>
+
+<body>
+
+<ul>
+
+<li>Programming Language</li>
+<ol style="list-style-type:circle;">
+<li>java script</li>
+<ol type="a">
+<li>Angular</li>
+<li>React</li>
+<li>Vue.js</li>
+</ol>
+<li>python</li>
+<ol type="a">
+<li>Django Framework</li>
+<li>Flask Framework</li>
+</ol>
+<li>java</li>
+<ol type="a">
+<li>Spring</li>
+<li>Maven</li>
+<li>Hibernate</li>
+</ol>
+</ol>
+
+<li>Database
+<ol style="list-style-type:circle;">
+<li>MYSQL</li>
+<li>MongoDB</li>
+<li>Cansandra</li>
+</ol>
+</li>
+
+</ul>
+
+</body>
+</html>
+
 ---
 
 5. Create an element that helps you to open the https://google.com in separate new tab.
 
+<a href="https://google.com" target="_blank">freeCodeCamp</a>
+
 ---
 
 6. In the form, add two radio buttons with grouping them for employee type(Salaried and own business)
+
+<p>employee type</p>
+
+<form>
+  <input type="radio" id="salaried" name="employee type" value="salaried">
+  <label for="salaried">salaried</label><br>
+  <input type="radio" id="own business" name="employee type" value="own business">
+  <label for="own business">own business</label><br>
+</form>
 
 ---
 
